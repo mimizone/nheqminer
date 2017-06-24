@@ -9,4 +9,3 @@ RUN apk add --no-cache --virtual=build-dependencies git cmake make gcc g++ libc-
     make && \
     apk del --purge build-dependencies
     
-ENTRYPOINT ["/nheqminer/nheqminer/build/nheqminer"]
